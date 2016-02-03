@@ -1,0 +1,17 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: New England Carnegies
+email: your-email@domain.com
+description: Of the 95 Carnegie libraries built in New England, 92 still stand.  See photos and read descriptions of them here.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://yourdomain.com" # the base hostname & protocol for your site
+state-list: [Connecticut, Maine, Massachusetts, New Hampshire, Rhode Island, Vermont]
+
+# Build settings
+markdown: kramdown
