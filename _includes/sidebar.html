@@ -19,17 +19,15 @@
   <!-- Google CSE Search Box Ends -->
 
   <h3>Click a State</h3>
-  <img ID="NEMAP" src="/images/NE_blank.png" alt="" usemap="#StateMap" />
+  <img ID="NEMAP" src="{{"/images/NE_blank.png" | prepend: site.baseurl}}" alt="" usemap="#StateMap" />
 
   <map name="StateMap" id="Map">
-      <area alt="Vermont" title="VT" href="/locations/#vermont" shape="poly" coords="7,179,69,165,63,293,35,296" onMouseOver="document.getElementById('NEMAP').src='/images/NE_VT.png'"
-            onMouseOut="src='/images/NE_blank.png'"  />
-      <area alt="New Hampshire" title="NH" href="/locations/#new-hampshire" shape="poly" coords="76,145,69,291,129,261" onMouseOver="document.getElementById('NEMAP').src='/images/NE_NH.png'"
-            onMouseOut="src='/images/NE_blank.png'" />
-      <area alt="Maine" title="ME" href="/locations/#maine" shape="poly" coords="89,145,154,6,245,127,162,211,131,249" onMouseOver="document.getElementById('NEMAP').src='/images/NE_ME.png'" />
-      <area alt="Massachusetts" title="MA" href="/locations/#massachusetts" shape="poly" coords="35,302,130,275,177,311,185,352,139,346,121,318,35,338" onMouseOver="document.getElementById('NEMAP').src='/images/NE_MA.png'" />
-      <area alt="Rhode Island" title="RI" href="/locations/#rhode-island" shape="poly" coords="118,322,135,347,112,362,103,328"  onMouseOver="document.getElementById('NEMAP').src='/images/NE_RI.png'" />
-      <area alt="Connecticut" title="CT" href="/locations/#connecticut" shape="poly" coords="40,343,100,329,111,365,41,398"  onMouseOver="document.getElementById('NEMAP').src='/images/NE_CT.png'" />
+      <area alt="Vermont" title="VT" href="{{"/locations/#vermont" | prepend: site.baseurl}}" shape="poly" coords="7,179,69,165,63,293,35,296" onMouseOver="document.getElementById('NEMAP').src='{{"/images/NE_VT.png" | prepend: site.baseurl}}'" onMouseOut="src='{{"/images/NE_blank.png" | prepend: site.baseurl}}'"  />
+      <area alt="New Hampshire" title="NH" href="{{"/locations/#new-hampshire" | prepend: site.baseurl}}" shape="poly" coords="76,145,69,291,129,261" onMouseOver="document.getElementById('NEMAP').src='{{"/images/NE_NH.png" | prepend: site.baseurl}}'" onMouseOut="src='{{"/images/NE_blank.png" | prepend: site.baseurl}}'" />
+      <area alt="Maine" title="ME" href="{{"/locations/#maine" | prepend: site.baseurl}}" shape="poly" coords="89,145,154,6,245,127,162,211,131,249" onMouseOver="document.getElementById('NEMAP').src='{{"/images/NE_ME.png" | prepend: site.baseurl}}'" onMouseOut="src='{{"/images/NE_blank.png" | prepend: site.baseurl}}'" />
+      <area alt="Massachusetts" title="MA" href="{{"/locations/#massachusetts" | prepend: site.baseurl}}" shape="poly" coords="35,302,130,275,177,311,185,352,139,346,121,318,35,338" onMouseOver="document.getElementById('NEMAP').src='{{"/images/NE_MA.png" | prepend: site.baseurl}}'" onMouseOut="src='{{"/images/NE_blank.png" | prepend: site.baseurl}}'" />
+      <area alt="Rhode Island" title="RI" href="{{"/locations/#rhode-island" | prepend: site.baseurl}}" shape="poly" coords="118,322,135,347,112,362,103,328"  onMouseOver="document.getElementById('NEMAP').src='{{"/images/NE_RI.png" | prepend: site.baseurl}}'" onMouseOut="src='{{"/images/NE_blank.png" | prepend: site.baseurl}}'" />
+      <area alt="Connecticut" title="CT" href="{{"/locations/#connecticut" | prepend: site.baseurl}}" shape="poly" coords="40,343,100,329,111,365,41,398"  onMouseOver="document.getElementById('NEMAP').src='{{"/images/NE_CT.png" | prepend: site.baseurl}}'" onMouseOut="src='{{"/images/NE_blank.png" | prepend: site.baseurl}}'"/>
   </map>
 
 </div>
