@@ -9,7 +9,7 @@
 title: New England Carnegies
 email: your-email@domain.com
 description: Of the 95 Carnegie libraries built in New England, 92 still stand.  See photos and read descriptions of them here.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/jekyllcarny" # the subpath of your site, e.g. /blog
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 state-list: [Connecticut, Maine, Massachusetts, New Hampshire, Rhode Island, Vermont]
 
