@@ -8,7 +8,7 @@ layout: page
   {% for page in site.pages %}
       {% for st in page.state %}
         {% if st contains state %}
-          <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+          <li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
         {% endif %}   <!-- cat-match-p -->
       {% endfor %}  <!-- page-category -->
   {% endfor %}  <!-- page -->
