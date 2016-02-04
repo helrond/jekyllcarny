@@ -4,11 +4,13 @@ layout: default
 <h2>{{page.title}}</h2>
 <h4>{{page.city}}, {{page.state}}</h4>
 
-<ul class="">
+<ul class="list-unstyled">
   <li>Designed by {{page.architect}}</li>
   <li>{{page.style}}</li>
   <li>{{page.address}}</li>
-  <li>Library web site: <a href="{{page.website}}">{{page.website}}</a></li>
+  {% if page.website %}
+    <li>Library web site: <a href="{{page.website}}">{{page.website}}</a></li>
+  {% endif %}
 </ul>
 
 {{content}}

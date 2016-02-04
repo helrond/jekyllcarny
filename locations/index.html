@@ -3,12 +3,12 @@ layout: page
 ---
 
 {% for state in site.state-list %}
-<h2><a name="{{ state | slugify }}">{{ state }}</a></h2>
-<ul>
+<h2><a name="{{ state | slugify }}"></a>{{ state }}</h2>
+<ul class="list-unstyled">
   {% for page in site.pages %}
       {% for st in page.state %}
         {% if st contains state %}
-          <li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+          <li>{% include library-snippet.html %}</li>
         {% endif %}   <!-- cat-match-p -->
       {% endfor %}  <!-- page-category -->
   {% endfor %}  <!-- page -->
