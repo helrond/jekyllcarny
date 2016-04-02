@@ -30,7 +30,7 @@ Use your favorite text editor to make desired changes to content. Use `grunt pre
 
 ### Deploy, the short way
 
-When you're happy with the changes, run `grunt deploy` to build the site, FTP the build to the remote server, and then commit the changes to Github.
+When you're happy with the changes, run `grunt deploy` to build the site, FTP the build to the remote server, and then commit the changes to Github. You'll be prompted for the username and password for the remote server.
 
 ### Deploy, the long way
 
