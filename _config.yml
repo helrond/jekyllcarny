@@ -15,3 +15,5 @@ state-list: [Connecticut, Maine, Massachusetts, New Hampshire, Rhode Island, Ver
 
 # Build settings
 markdown: kramdown
+exclude :
+  - node_modules
